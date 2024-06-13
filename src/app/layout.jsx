@@ -4,8 +4,8 @@ import Footer from "@/components/footer/Footer";
 import Navbar from "@/components/navbar/Navbar";
 import { Providers } from "./Providers/UiProvider";
 const inter = Montserrat({ subsets: ["latin"] });
-import { getServerSession } from "next-auth";
-import AuthProvider from "./Providers/AuthProvider";
+// import { getServerSession } from "next-auth";
+
 
 
 export const metadata = {
@@ -29,16 +29,16 @@ export const viewport = {
 };
 
 export default async function RootLayout({ children }) {
-    const session = await getServerSession();
+    // const session = await getServerSession();
     return (
         <html lang="en" >
             <body className={inter.className}>
                 <Providers>
-                    <AuthProvider session={session}>
-                        <Navbar session={session}/>
+                   
+                        <Navbar />
                         <div>{children}</div>
                         <Footer />
-                    </AuthProvider>
+                  
                 </Providers>
             </body>
         </html>

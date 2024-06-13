@@ -1,13 +1,13 @@
 
-import StyleSheet from "./links.module.css";
+// import StyleSheet from "./links.module.css";
 import Navlink from "../navlink/Navlink";
-import { signOut, useSession } from 'next-auth/react'
+// import { signOut, useSession } from 'next-auth/react'
 
 
 
 const AllLinks = () => {
 
-    const { data: session } = useSession();
+    // const { data: session } = useSession();
     // console.log(session, 'session');
 
     const links = [
