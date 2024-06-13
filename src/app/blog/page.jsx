@@ -27,15 +27,17 @@ export const metadata = {
 
 const BlogPage = async () => {
 
-  const posts = await getPosts();
+//   const posts = await getPosts();
 
   return (
     <div className={`styles.container mt-32 w-[90%] mx-auto`}>
-      {posts && posts.map((post) => (
+      {/* {posts && posts.map((post) => (
         <div className={styles.post} key={post.id}>
           <PostCard post={post} />
         </div>
-      ))}
+      ))} */}
+
+    <h1>Blog</h1>
     </div>
   );
 };
