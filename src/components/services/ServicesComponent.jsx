@@ -4,18 +4,21 @@ import Image from "next/image";
 function ServicesComponent() {
   const courses = [
     {
+id:1,
       image: "/assets/course3.jpg",
       title: "Personality Enhancement Programme",
       description: "Unlock your full potential with our Personality Enhancement Programme.",
       isBestSelling: false,
     },
     {
+        id:2,
       image: "/assets/course2.jpg",
       title: "Business Etiquette & Corporate Image Programme",
       description: "Master the art of business etiquette and elevate your corporate image.",
       isBestSelling: true,
     },
     {
+        id:3,
       image: "/assets/course1.jpg",
       title: "Children’s Etiquette Programme",
       description: "Teach your children essential etiquette skills in a fun and engaging way.",
@@ -34,7 +37,7 @@ function ServicesComponent() {
         <div className="flex flex-col justify-center items-center gap-10 py-16 w-full md:flex-row md:space-y-0 md:space-x-4">
           {courses.map((course, index) => (
             <div
-              key={index}
+              key={course.id}
               className="relative w-[90%] md:w-[25%] bg-[#708090] bg-opacity-25 dark:bg-[#122031] rounded-3xl text-black md:p-4 p-2 text-center flex flex-col items-center justify-center gap-3 dark:hover:bg-[#000] shadow-2xl hover:shadow-lg hover:shadow-[#8c9c88] dark:hover:shadow-[#708090] transition-shadow"
               style={{ height: '600px' }} // Fixed height for all cards
             >
