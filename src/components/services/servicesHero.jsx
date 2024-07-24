@@ -9,7 +9,9 @@ function ServicesHero() {
 <div className='absolute inset-0 dark:bg-[#060507] bg-[#BEBEBE] dark:bg-opacity-90 bg-opacity-90'></div>
         <div className="w-full px-16 relative z-50 dark:text-white text-black ">
           <h1 className='p-1 font-bold text-5xl md:text-6xl'>Services</h1>
-          <Breadcrumbs className=" text-black p-4">
+          <Breadcrumbs maxItems={3}
+      itemsBeforeCollapse={1}
+      itemsAfterCollapse={2} className=" text-black p-4">
             <BreadcrumbItem>Home</BreadcrumbItem>
             <BreadcrumbItem>Services</BreadcrumbItem>
           </Breadcrumbs>
