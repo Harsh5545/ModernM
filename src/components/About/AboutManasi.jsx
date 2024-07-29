@@ -1,20 +1,12 @@
 import Image from "next/image";
 import React from "react";
 
-function Aboutpage() {
+export const AboutManasi = () => {
   return (
-    <div className='flex flex-col dark:bg-[#00001F] md:flex-row  items-center gap-5 justify-space-evenly w-full h-full py-24'>
-      <div className="flex-1 w-full flex items-center justify-center ">
-        <Image
-          src="/assets/AboutUsModernMannerism.webp"
-          height={400}
-          width={600}
-        className="border-[#06273A] dark:border-[#fff] border-5"
-          alt="modern Mannerism"
-        />
-      </div>
-      <div className="flex-1 flex-col flex text-center gap-5 ">
-        <div className="px-2 md:w-[90%] w-full flex text-center flex-col gap-6">
+    <div className='flex dark:bg-[#00001F] flex-col md:flex-row  items-center gap-5 justify-space-evenly w-full h-full py-24'>
+     
+      <div className="flex-1 flex-col flex items-end justify-end gap-5 ">
+        <div className="px-2 md:w-[80%] w-full flex text-center flex-col gap-6">
           <div className="flex pb-10 flex-col items-center gap-2 justify-center">
             <h2 className=" text-black text-xl md:text-4xl font-semibold dark:text-white">
               ABOUT US
@@ -44,8 +36,16 @@ function Aboutpage() {
           </p>
         </div>
       </div>
+
+ <div className="flex-1 w-full flex items-center justify-center ">
+        <Image
+          src="/assets/ManasiKadamPic.png"
+          height={400}
+          width={600}
+          
+          alt="modern Mannerism"
+        />
+      </div>
     </div>
   );
-}
-
-export default Aboutpage;
+};

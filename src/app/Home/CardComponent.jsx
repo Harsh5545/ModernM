@@ -29,9 +29,9 @@ const CardComponent = () => {
   return (
     <div className="w-full dark:bg-[#00001F] h-full flex flex-col justify-center items-center">
       <div>
-        <h1 className="py-10 text-4xl flex flex-col gap-2 font-bold">
+        <h4 className="py-10 text-4xl flex flex-col gap-2 font-bold">
           Our Services <hr className="bg-[#933469] h-1" />{" "}
-        </h1>
+        </h4>
       </div>
       <div className="flex flex-col justify-center items-center gap-10 py-16 w-full md:flex-row md:space-y-0 md:space-x-4">
         {courses.map((course, index) => (

@@ -3,25 +3,18 @@
 const Footer = () => {
   return (
 
-    // <div className={styles.container}>
-    //   <div className={styles.logo}>Code Connect</div>
-    //   <div className={styles.text}>
-    //     Code Connect  agency © All rights reserved.
-    //   </div>
-    // </div>
-
   <>
-    <footer className="dark:bg-[#00001F] bg-white text-black dark:text-white py-10">
+    <footer className="dark:bg-[#00001F] border-t-8 bg-white text-black dark:text-white py-8">
       <div className="container mx-auto px-3">
         <div className="flex flex-wrap justify-between">
-          <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">About Us</h3>
+          <div className="w-full text-center  md:w-1/4 mb-6 md:mb-0">
+            <span className="text-lg font-bold mb-2">About Us</span>
             <p>
               We provide top-notch image consulting, table etiquette, and personality development services to help you shine in your personal and professional life.
             </p>
           </div>
-          <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">Quick Links</h3>
+          <div className="w-full text-center  md:w-1/4 mb-6 md:mb-0">
+            <span className="text-lg font-bold mb-2">Quick Links</span>
             <ul>
               <li className="mb-2"><a href="/services" className="hover:underline">Services</a></li>
               <li className="mb-2"><a href="/about" className="hover:underline">About Us</a></li>
@@ -30,15 +23,15 @@ const Footer = () => {
             </ul>
           </div>
           <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">Contact Us</h3>
+            <h className="text-lg text-center  font-bold mb-2">Contact Us</h>
             <ul>
-              <li className="mb-2">Email: info@example.com</li>
+              <li className="mb-2">Email: modernmannerism@gmail.com </li>
               <li className="mb-2">Phone: +123 456 7890</li>
-              <li className="mb-2">Address: 123 Main Street, City, Country</li>
+              <li className="mb-2">Address: Thane, India</li>
             </ul>
           </div>
-          <div className="w-full md:w-1/4 mb-6 md:mb-0">
-            <h3 className="text-lg font-bold mb-2">Follow Us</h3>
+          <div className="w-full text-center  md:w-1/4 mb-6 md:mb-0">
+            <span className="text-lg  text-center  font-bold mb-2">Follow Us</span>
             <div className="flex space-x-4">
               <a href="#" className="hover:text-gray-400"><i className="fab fa-facebook-f"></i></a>
               <a href="#" className="hover:text-gray-400"><i className="fab fa-twitter"></i></a>
@@ -48,9 +41,9 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center mt-10">
+      <h6 className="text-center mt-10">
         &copy; 2024 ModernMannerism | Designed by HarshadKajale
-      </div>
+      </h6>
     </footer></>
   );
 };
