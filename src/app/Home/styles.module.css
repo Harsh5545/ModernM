@@ -1,0 +1,51 @@
+/* styles.module.css */
+.mySwiper .swiper-button-next,
+.mySwiper .swiper-button-prev {
+  width: 30px; /* Smaller size */
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+  border-radius: 50%; /* Round shape */
+  color: #06273a; /* Default icon color */
+  font-size: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s ease; /* Smooth transition */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Light shadow for better visibility */
+}
+
+.mySwiper .swiper-button-next:hover,
+.mySwiper .swiper-button-prev:hover {
+  background-color: #2980b9; /* Hover color for light theme */
+  color: white;
+}
+
+.mySwiper .swiper-button-next:after,
+.mySwiper .swiper-button-prev:after {
+  font-size: 16px; /* Icon size */
+  font-weight: bold;
+}
+
+.mySwiper .swiper-button-next {
+  right: 10px; /* Positioning */
+}
+
+.mySwiper .swiper-button-prev {
+  left: 10px;
+}
+
+.dark .mySwiper .swiper-button-next,
+.dark .mySwiper .swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.8); /* Dark theme background */
+  color: #b3bdca; /* Icon color for dark theme */
+}
+
+.dark .mySwiper .swiper-button-next:hover,
+.dark .mySwiper .swiper-button-prev:hover {
+  background-color: #1abc9c; /* Hover color for dark theme */
+  color: white;
+}
+
+/* Remove pagination bullets */
+.mySwiper .swiper-pagination {
+  display: none; /* Hide pagination bullets */
+}
