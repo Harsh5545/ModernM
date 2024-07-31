@@ -3,16 +3,8 @@ import React from "react";
 
 function Aboutpage() {
   return (
-    <div className='flex flex-col dark:bg-[#00001F] md:flex-row  items-center gap-5 justify-space-evenly w-full h-full py-24'>
-      <div className="flex-1 w-full flex items-center justify-center ">
-        <Image
-          src="/assets/AboutUsModernMannerism.webp"
-          height={400}
-          width={600}
-        className="border-[#06273A] dark:border-[#fff] border-5"
-          alt="modern Mannerism"
-        />
-      </div>
+    <div className='flex flex-col dark:bg-[#00001F] md:flex-row  items-center gap-5 justify-evenly w-full h-full py-24'>
+      <div className="md:w-[90%] w-full flex flex-col md:flex-row">
       <div className="flex-1 flex-col flex text-center gap-5 ">
         <div className="px-2 md:w-[90%] w-full flex text-center flex-col gap-6">
           <div className="flex pb-10 flex-col items-center gap-2 justify-center">
@@ -44,6 +36,15 @@ function Aboutpage() {
           </p>
         </div>
       </div>
+<div className="flex-1 w-full flex items-center justify-center ">
+        <Image
+          src="/assets/AboutUsModernMannerism.webp"
+          height={400}
+          width={600}
+        className="border-[#06273A] dark:border-[#fff] border-5"
+          alt="modern Mannerism"
+        />
+      </div></div>
     </div>
   );
 }

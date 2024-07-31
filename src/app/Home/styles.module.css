@@ -15,7 +15,7 @@
 
 .mySwiper .swiper-button-next:hover,
 .mySwiper .swiper-button-prev:hover {
-  background-color: #2980b9; /* Hover color for light theme */
+  background-color: #910A67; /* Hover color for light theme */
   color: white;
 }
 
@@ -41,7 +41,7 @@
 
 .dark .mySwiper .swiper-button-next:hover,
 .dark .mySwiper .swiper-button-prev:hover {
-  background-color: #1abc9c; /* Hover color for dark theme */
+  background-color: #910A67; /* Hover color for dark theme */
   color: white;
 }
 
