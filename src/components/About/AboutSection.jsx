@@ -9,11 +9,11 @@ function AboutSection() {
 
       {/* Content */}
       <div className="flex   md:flex-row flex-col h-72 gap-5 p-4 md:p-24 justify-between items-center">
-        <h1 className="p-1 font-semibold text-xl md:text-2xl w-[85%] md:w-[60%] text-center text-black ">
+        <h3 className="p-1 font-semibold text-xl md:text-2xl w-[85%] md:w-[60%] text-center text-black ">
          Become a part of Modern Mannerism community to keep up to date with our courses, articles and news.
 
 Become a better,more confident and professional you!
-        </h1>
+        </h3>
         <Button>GET A QUOTE</Button>
       </div>
     </div></div>

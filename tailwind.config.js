@@ -18,5 +18,14 @@ module.exports = {
                 dark: {},
             }
         })
-    ]
+    ],
+ theme: {
+    extend: {
+      fontFamily: {
+        'tan-mon-cheri': ['TAN Mon Cheri', 'sans-serif'],
+        'season-bold': ['The Season', 'sans-serif'],
+        'mill-goudy': ['Mill Goudy', 'serif'],
+      },
+    },
+  },
 };

@@ -6,6 +6,7 @@ import HomeAbout from "./Home/HomeAbout";
 import HomeSection from "./Home/HomeSection";
 import HomeTestimonial from "./Home/HomeTestimonial";
 import HomeConsultation from "./Home/HomeConsultation";
+import HomeDinning from "./Home/HomeDinning";
 
 const Home = () => {
 
@@ -16,8 +17,9 @@ const Home = () => {
         <CardComponent/>
 <HomeSection/>
 <HomeAbout/>
-    <HomeTestimonial/>
+<HomeTestimonial/>
 <HomeConsultation/>
+
       {/* <div className={styles.textContainer}>
         <h1 className={styles.title}>Creative Thoughts Agency.</h1>
         <p className={styles.desc}>

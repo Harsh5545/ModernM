@@ -39,7 +39,7 @@ function HeaderDefault() {
               width={100}
               height={100}
               className="md:max-w-[6rem] max-w-[6rem]"
-              alt="HarikrushnaMultimedia institute logo"
+              alt="ModernMannerism logo"
             />
           </span>
           <div className="md:hidden">

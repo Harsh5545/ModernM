@@ -36,17 +36,17 @@ const HomeAbout = () => {
         <div className="flex justify-around items-center w-full">
           <div className="p-1 flex items-center flex-col gap-4">
             <StarOutlineIcon style={{ fontSize: 40, color:'#933469' }} /> 
-            <h2 className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Vision</h2>
+            <span className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Vision</span>
           </div>
           <Divider orientation="vertical" style={{ height: 100, width:2 }} /> 
           <div className="p-1 flex items-center flex-col gap-4">
             <WorkspacePremiumIcon style={{ fontSize: 40, color:'#933469' }} /> 
-            <h2 className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Missions</h2>
+            <span className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Missions</span>
           </div>
           <Divider orientation="vertical" style={{ height: 100, width:2 }} /> 
           <div className="p-1 flex items-center flex-col gap-4">
             <FlagCircleIcon style={{ fontSize: 40, color:'#933469' }} /> 
-            <h2 className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Goals</h2>
+            <span className="font-semibold dark:text-white md:text-2xl text-xl text-[#06273A]">Goals</span>
           </div>
        
         </div>
