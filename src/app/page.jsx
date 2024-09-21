@@ -17,9 +17,8 @@ const Home = () => {
         <CardComponent/>
 <HomeSection/>
 <HomeAbout/>
-    <HomeTestimonial/>
-
-<HomeConsultation/><HomeDinning/>
+<HomeTestimonial/>
+<HomeConsultation/>
 
       {/* <div className={styles.textContainer}>
         <h1 className={styles.title}>Creative Thoughts Agency.</h1>
