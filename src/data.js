@@ -26,3 +26,31 @@ const TestimonialData = [{
   }];
 
 export default TestimonialData;
+
+
+
+// data.js
+   // data.js
+export const servicesData = [
+  {
+    id: "1", // Ensure the ID matches what's in the URL
+    title: " EnhaPersonalityncement Programme",
+    description: "Unlock your full potential with our Personality Enhancement Programme.",
+    image: "/assets/PD.jpg",
+    duration: "12 sessions (2 hours per session)"
+  },
+  {
+    id: "2",
+    title: "Business Etiquette & Corporate Image Programme",
+    description: "Master the art of business etiquette and elevate your corporate image.",
+    image: "/assets/BusinessHandshake.jpg",
+    duration: "10 sessions"
+  },
+  {
+    id: "3",
+    title: "Children’s Etiquette Programme",
+    description: "Teach your children essential etiquette skills in a fun and engaging way.",
+    image: "/assets/Etiquettechildren.jpg",
+    duration: "8 sessions"
+  }
+];
