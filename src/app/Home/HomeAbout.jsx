@@ -17,6 +17,7 @@ const HomeAbout = () => {
             alt="modern Mannerism image "
             src="/assets/course2.jpg"
             className=" shadow-2xl p-1 shadow-[#859199]"
+style={{boxShadow: "black 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(167, 20, 154) 10px -10px"}}
           />
         </div>
       </div>

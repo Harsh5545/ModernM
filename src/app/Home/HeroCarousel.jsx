@@ -59,7 +59,7 @@ button: "Explore",
     container: `md:h-screen  w-full bg-cover z-0 relative`,
     slide: `md:h-screen h-[65vh] w-full relative`,
     image: `md:object-cover   w-full md:h-full h-[65vh]`,
-    overlay: `absolute inset-0 dark:bg-[#060507] bg-[#BEBEBE] dark:bg-opacity-60 bg-opacity-40`,
+    overlay: `absolute inset-0 dark:bg-[#060507] bg-[#b3bdca] dark:bg-opacity-60 bg-opacity-50`,
     content: `absolute left-0 w-full z-10 p-4`,
     text: `md:text-4xl dark:text-white font-bold sm:text-xl text-black lato-font`,
     button: `px-8 py-4 bg-black w-[50%] md:w-[25%] text-white rounded-full mt-4 sm:mt-10`,
@@ -79,7 +79,7 @@ button: "Explore",
           color: #ff0000; /* Customize this color as needed */
         }
         .swiper-pagination-bullet {
-          background-color: #0000ff; /* Customize this color as needed */
+          background-color: #c70ba8; /* Customize this color as needed */
         }
         .swiper-pagination-bullet-active {
           background-color: #ff0000; /* Customize active dot color */
@@ -116,7 +116,7 @@ button: "Explore",
               <div className={styles.overlay}></div>
               <div className="absolute flex gap-3 md:gap-8 flex-col text-center items-center justify-center h-full z-10 p-8">
                 <h1 className={styles.text}>{slide.text}</h1>
-                <p className="md:w-[50%] text-sm font-medium md:text-lg">{slide.description}</p>
+                <p className="md:w-[50%]  text-sm font-medium md:text-lg">{slide.description}</p>
 <Button className={styles.button}>{slide.button}</Button>
               </div>
             </div>

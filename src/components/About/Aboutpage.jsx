@@ -9,25 +9,25 @@ function Aboutpage() {
         <div className="px-2 md:w-[90%] w-full flex text-center flex-col gap-6">
           <div className="flex pb-10 flex-col items-center gap-2 justify-center">
             <h2 className=" text-black text-xl md:text-4xl font-semibold dark:text-white">
-              ABOUT US
+              ABOUT MODERN MANNERISM
             </h2>
             <hr className="h-1 bg-[#933469]  w-16" />
           </div>
 
-          <p className=" md:text-lg text-base">
+          <p className="  text-base">
             Modern Mannerism provides professional-quality training and learning
             globally. We help professionals, corporates, and organizations to
             embrace transformation and accomplish breakthrough performance by
             becoming proficient at the skills.
           </p>
-          <p className=" md:text-lg text-base">
+          <p className="  text-base">
             Modern Mannerism is devoted to providing excellence in training and
             learning to individuals of all age groups. We help in Managing and
             Improving Self-esteem as well as Appearance management. Each module
             is designed after reviewing lifestyle, goals and personality traits
             systematically.
           </p>
-          <p className=" md:text-lg text-base">
+          <p className="  text-base">
             Our services comprise Business Etiquette & Corporate Image
             Programme, Children’s Etiquette Programme, Ladies Grooming & Image
             Enhancement Programme, Fine Dining & Table Etiquette Workshop,
@@ -39,8 +39,8 @@ function Aboutpage() {
 <div className="flex-1 w-full flex items-center justify-center ">
         <Image
           src="/assets/AboutUsModernMannerism.webp"
-          height={400}
-          width={600}
+          height={300}
+          width={500}
         className="border-[#06273A] dark:border-[#fff] border-5"
           alt="modern Mannerism"
         />

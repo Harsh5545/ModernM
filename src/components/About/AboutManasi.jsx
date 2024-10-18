@@ -8,8 +8,8 @@ export const AboutManasi = () => {
         <div className="flex flex-1 items-center justify-center w-full md:w-[30%]">
           <Image
             src="/assets/ManasiKadamPic.png"
-            height={800}
-            width={800}
+            height={900}
+            width={700}
             alt="modern Mannerism"
             className="image bg-cover"
           />
@@ -17,42 +17,43 @@ export const AboutManasi = () => {
         <div className="flex-col flex-1 flex items-end justify-end gap-5 md:w-[70%]">
           <div className="content px-2 md:w-[90%] w-full flex flex-col gap-6">
             <div className="header flex pb-10 flex-col items-center gap-2 justify-center">
-              <h2 className="text-black text-xl md:text-4xl font-semibold dark:text-white">
-                ABOUT US
+              <h2 className="text-black text-center text-xl md:text-4xl font-semibold dark:text-white">
+                ABOUT HEAD CONSULTANT & FOUNDER
               </h2>
-              <hr className="h-1 bg-[#933469] w-16" />
+              <hr className="h-1 bg-[#933469] w-40" />
             </div>
 
-            <p className="md:text-lg text-base">
-              Manasi Kadam, a seasoned professional with a multifaceted career in
-              Image & Etiquette Consulting, Content Strategy, Travel Consulting,
-              and Client Relationship Management. Manasi's journey is a vibrant
-              tapestry of diverse experiences, marked by a deep passion for
-              fostering meaningful connections and enhancing the overall customer
-              experience. She brings a unique blend of creativity, adaptability,
-              and leadership to every role she undertakes.
+            <p className=" text-center text-base  ">
+              Manasi Kadam is the visionary behind Modern Mannerism, bringing
+              her extensive expertise in Image & Etiquette Consulting to the
+              forefront. With a deep passion for empowering individuals and
+              professionals, Manasi offers a comprehensive range of services,
+              from Personal Branding  and
+               Communication Skills to  Corporate Etiquette and
+               Fine Dining Manners. Her unique background, enriched by
+              diverse experiences across various industries, allows her to craft
+              personalized strategies that enhance her clients' professional
+              presence and social confidence.
             </p>
-            <p className="md:text-lg text-base">
-              Manasi’s educational background includes M.I.C.E Management (Travel
-              and Tourism) from Kuoni Academy. Beyond formal education, she has
-              pursued additional courses to enhance her expertise. She is a
-              certified Image Consultant and Soft Skills Trainer, having completed
-              programs at Classes of Professional Studies by Dr. Shivani Sharma
-              and Presence Institute of Image Consulting. Additionally, she has
-              explored Neuro Linguistic Programming with NetEdu Academy under
-              Coach Lokesh Lakhotia, showcasing her commitment to continuous
-              personal and professional development.
+            <p className=" text-center text-base ">
+              She is a certified  Image Consultant    and  Soft Skills Trainer,
+              having completed specialized programs at renowned institutions
+              like the
+              Image Consulting Business Institute (ICBI), Classes of
+                Professional Studies by Dr. Shivani Sharma, and Presence
+                Institute of Image Consulting. Additionally, Manasi honed her communication skills under the
+              mentorship of Mrs. Sabira Merchant at Celebrity School,
+              and further enhanced her expertise by exploring{" "}
+              Neuro-Linguistic Programming with NetEdu Academy. Her
+              commitment to ongoing learning ensures that she stays at the
+              forefront of industry trends, offering clients the highest
+              standard of image consulting and etiquette training.
             </p>
-            <p className="md:text-lg text-base">
-              At Modern Mannerism, Manasi is dedicated to providing top-tier image
-              consulting services, from personal branding and communication skills
-              to fine dining and corporate etiquette. Her mission is to empower
-              clients with the knowledge and confidence needed to succeed in their
-              personal and professional lives.
-            </p>
-            <p className="md:text-lg text-base">
+
+            <p className=" text-base  text-center">
               Join Manasi at Modern Mannerism, and let’s work together to refine
-              your image, enhance your etiquette, and unlock your full potential.
+              your image, enhance your etiquette, and unlock your full
+              potential.
             </p>
           </div>
         </div>

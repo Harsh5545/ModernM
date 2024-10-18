@@ -7,7 +7,7 @@
     const CardComponent = () => {
     const courses = [
         {
-        image: "/assets/PD.jpg",
+        image: "/assets/Personality Development.jpeg",
         title: "Personality Enhancement Programme",
         description:
             "Unlock your full potential with our Personality Enhancement Programme.",

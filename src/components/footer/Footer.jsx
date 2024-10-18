@@ -10,22 +10,15 @@ const Footer = () => {
       <div className="container mx-auto px-3">
         <div className="flex flex-wrap justify-between">
         
-          <div className="w-full flex flex-col gap-2 items-center text-center  md:w-1/4 mb-6 md:mb-0">
-             <Image
-              src="/assets/logo.png"
-              width={100}
-              height={100}
-                href="/"
-              className="md:max-w-[6rem] cursor-pointer max-w-[6rem]"
-              alt="ModernMannerism logo"
-            />
-
-            <p>
+          <div className="w-full flex flex-col gap-8 items-center text-center  md:w-1/4 mb-6 md:mb-0">
+           <h2 className="text-center text-2xl font-semibold">Contact Us</h2>
+        <p className="text-center text-lg font-medium"> +91 9867831324</p>
+            {/* <p>
               We provide top-notch image consulting, table etiquette, and personality development services to help you shine in your personal and professional life.
-            </p>
+            </p> */}
             
           </div>
-          <div className="w-full flex flex-col gap-2 items-center text-center  md:w-1/4 mb-6 md:mb-0">
+          {/* <div className="w-full flex flex-col gap-2 items-center text-center  md:w-1/4 mb-6 md:mb-0">
             <span className="text-lg font-bold mb-2">Quick Links</span>
             <ul>
               <li className="mb-2"><a href="/service" className="hover:underline">Services</a></li>
@@ -33,14 +26,15 @@ const Footer = () => {
               <li className="mb-2"><a href="/blog" className="hover:underline">Blog</a></li>
               <li className="mb-2"><a href="/contact" className="hover:underline">Contact</a></li>
             </ul>
-          </div>
-          <div className="w-full flex flex-col gap-2 items-center md:w-1/4 mb-6 md:mb-0">
-            <h className="text-lg text-center  font-bold mb-2">Contact Us</h>
-            <ul>
+          </div> */}
+          <div className="w-full flex flex-col gap-8 items-center md:w-1/4 mb-6 md:mb-0">
+            <h5 className="text-lg text-center  font-bold mb-2">Email</h5>
+<p className="text-center text-lg font-medium">modernmannerism@gmail.com</p>
+            {/* <ul>
               <li className="mb-3">Email: modernmannerism@gmail.com </li>
-              <li className="mb-3">Phone: +123 456 7890</li>
+              <li className="mb-3">Phone: +91 9867831324</li>
               <li className="mb-3">Address: Thane, India</li>
-            </ul>
+            </ul> */}
           </div>
           <div className="w-full text-center  md:w-1/4 mb-6 md:mb-0">
             <span className="text-lg  text-center  font-bold mb-2">Follow Us</span>
