@@ -7,11 +7,11 @@ export const AboutManasi = () => {
       <div className="flex w-[90%] items-center flex-col justify-evenly h-full md:flex-row">
         <div className="flex flex-1 items-center justify-center w-full md:w-[30%]">
           <Image
-            src="/assets/ManasiKadamPic.png"
-            height={900}
-            width={700}
+            src="/assets/ManasiKadam.jpg"
+            height={700}
+            width={500}
             alt="modern Mannerism"
-            className="image bg-cover"
+            className="image bg-cover border-[#06273A] dark:border-[#fff] border-5"
           />
         </div>
         <div className="flex-col flex-1 flex items-end justify-end gap-5 md:w-[70%]">
